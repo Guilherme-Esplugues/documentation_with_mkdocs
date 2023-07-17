@@ -1,5 +1,16 @@
-site_name: My Docs
+site_name: Esplugues Documentation
+repo_url: https://github.com/Guilherme-Esplugues/documentation_with_mkdocs
+repo_name: Guilherme-Esplugues/documentation_with_mkdocs
+edit_uri: tree/main/docs
 
 theme:
     name: material
     language: pt-BR
+    logo: assets/logo.png
+    favicon: assets/logo.png
+
+markdown_extensions:
+    - attr_list
+
+extra_css:
+    - stylesheets/extra.css
