@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "documentation-with-mkdocs"
+version = "0.1.0"
+description = ""
+authors = ["guilherme-esplugues <gui.esplugues@gmail.com>"]
+readme = "README.md"
+packages = [{include = "documentation_with_mkdocs"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs-material = "^9.1.18"
+mkdocstrings = "^0.22.0"
+mkdocstrings-python = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
